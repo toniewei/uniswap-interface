@@ -23,7 +23,7 @@ import { V1_EXCHANGE_ABI, V1_FACTORY_ABI, V1_FACTORY_ADDRESSES } from '../consta
 import { getContract } from '../utils'
 import { useActiveWeb3React } from './index'
 
-// returns null on errors
+// returns null on errors eeeaa
 function useContract(address: string | undefined, ABI: any, withSignerIfPossible = true): Contract | null {
   const { library, account } = useActiveWeb3React()
 
